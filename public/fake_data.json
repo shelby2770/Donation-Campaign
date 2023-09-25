@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "Picture": "image1.jpg",
+    "Title": "Product 1",
+    "Category": "Electronics",
+    "Category_bg": "#3498db",
+    "Card_bg": "#ffffff",
+    "Text_button_bg": "#2ecc71",
+    "Description": "This is the description for Product 1.",
+    "Price": "$199.99"
+  },
+  {
+    "id": 2,
+    "Picture": "image2.jpg",
+    "Title": "Product 2",
+    "Category": "Clothing",
+    "Category_bg": "#e74c3c",
+    "Card_bg": "#ffffff",
+    "Text_button_bg": "#f1c40f",
+    "Description": "This is the description for Product 2.",
+    "Price": "$49.99"
+  },
+  {
+    "id": 3,
+    "Picture": "image3.jpg",
+    "Title": "Product 3",
+    "Category": "Home Decor",
+    "Category_bg": "#9b59b6",
+    "Card_bg": "#ffffff",
+    "Text_button_bg": "#e67e22",
+    "Description": "This is the description for Product 3.",
+    "Price": "$79.99"
+  },
+  {
+    "id": 4,
+    "Picture": "image4.jpg",
+    "Title": "Product 4",
+    "Category": "Sports",
+    "Category_bg": "#1abc9c",
+    "Card_bg": "#ffffff",
+    "Text_button_bg": "#e74c3c",
+    "Description": "This is the description for Product 4.",
+    "Price": "$29.99"
+  },
+  {
+    "id": 5,
+    "Picture": "image5.jpg",
+    "Title": "Product 5",
+    "Category": "Electronics",
+    "Category_bg": "#3498db",
+    "Card_bg": "#ffffff",
+    "Text_button_bg": "#2ecc71",
+    "Description": "This is the description for Product 5.",
+    "Price": "$149.99"
+  },
+  {
+    "id": 6,
+    "Picture": "image6.jpg",
+    "Title": "Product 6",
+    "Category": "Clothing",
+    "Category_bg": "#e74c3c",
+    "Card_bg": "#ffffff",
+    "Text_button_bg": "#f1c40f",
+    "Description": "This is the description for Product 6.",
+    "Price": "$39.99"
+  },
+  {
+    "id": 7,
+    "Picture": "image7.jpg",
+    "Title": "Product 7",
+    "Category": "Home Decor",
+    "Category_bg": "#9b59b6",
+    "Card_bg": "#ffffff",
+    "Text_button_bg": "#e67e22",
+    "Description": "This is the description for Product 7.",
+    "Price": "$89.99"
+  },
+  {
+    "id": 8,
+    "Picture": "image8.jpg",
+    "Title": "Product 8",
+    "Category": "Sports",
+    "Category_bg": "#1abc9c",
+    "Card_bg": "#ffffff",
+    "Text_button_bg": "#e74c3c",
+    "Description": "This is the description for Product 8.",
+    "Price": "$19.99"
+  },
+  {
+    "id": 9,
+    "Picture": "image9.jpg",
+    "Title": "Product 9",
+    "Category": "Electronics",
+    "Category_bg": "#3498db",
+    "Card_bg": "#ffffff",
+    "Text_button_bg": "#2ecc71",
+    "Description": "This is the description for Product 9.",
+    "Price": "$249.99"
+  },
+  {
+    "id": 10,
+    "Picture": "image10.jpg",
+    "Title": "Product 10",
+    "Category": "Clothing",
+    "Category_bg": "#e74c3c",
+    "Card_bg": "#ffffff",
+    "Text_button_bg": "#f1c40f",
+    "Description": "This is the description for Product 10.",
+    "Price": "$59.99"
+  },
+  {
+    "id": 11,
+    "Picture": "image11.jpg",
+    "Title": "Product 11",
+    "Category": "Home Decor",
+    "Category_bg": "#9b59b6",
+    "Card_bg": "#ffffff",
+    "Text_button_bg": "#e67e22",
+    "Description": "This is the description for Product 11.",
+    "Price": "$69.99"
+  },
+  {
+    "id": 12,
+    "Picture": "image12.jpg",
+    "Title": "Product 12",
+    "Category": "Sports",
+    "Category_bg": "#1abc9c",
+    "Card_bg": "#ffffff",
+    "Text_button_bg": "#e74c3c",
+    "Description": "This is the description for Product 12.",
+    "Price": "$79.99"
+  }
+]
