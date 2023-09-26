@@ -1,5 +1,4 @@
 import CardDesign1 from "./CardDesign1";
-import { useEffect, useState } from "react";
 
 const CardContainer1 = ({ obj }) => {
   return (
