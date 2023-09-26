@@ -1,7 +1,10 @@
+import NoDonate from "./Components/NoDonate";
+
 const Donation = () => {
+    const get_items= localStorage.getItem("donations")
     return (
         <div>
-            THIS IS DONATION PAGE
+            <NoDonate></NoDonate>
         </div>
     );
 };
