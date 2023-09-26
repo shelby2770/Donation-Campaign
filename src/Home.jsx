@@ -1,9 +1,13 @@
-import NavBar from "./Components/Navbar";
+import { useLoaderData } from "react-router-dom";
+import Banner from "./Components/Banner";
+import CardContainer1 from "./Components/CardContainer1";
 
 const Home = () => {
+    const obj= useLoaderData()
     return (
-        <div className= 'max-w-[12]'>
-            <NavBar></NavBar>
+        <div>
+            <Banner></Banner>
+            <CardContainer1 obj= {obj}></CardContainer1>
         </div>
     );
 };

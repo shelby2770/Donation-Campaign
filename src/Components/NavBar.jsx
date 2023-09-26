@@ -14,7 +14,7 @@ const NavBar = () => {
                 isPending
                   ? "pending"
                   : isActive
-                  ? "text-primary_clr underline"
+                  ? "text-primary_clr font-semibold underline"
                   : ""
               }
             >
@@ -28,7 +28,7 @@ const NavBar = () => {
                 isPending
                   ? "pending"
                   : isActive
-                  ? "text-primary_clr underline"
+                  ? "text-primary_clr font-semibold underline"
                   : ""
               }
             >
@@ -42,7 +42,7 @@ const NavBar = () => {
                 isPending
                   ? "pending"
                   : isActive
-                  ? "text-primary_clr underline"
+                  ? "text-primary_clr font-semibold underline"
                   : ""
               }
             >
