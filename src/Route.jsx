@@ -24,6 +24,7 @@ const create_route = createBrowserRouter([
       {
         path: "/statistics",
         element: <Statistics></Statistics>,
+        loader: () => fetch("../../public/fake_data.json"),
       },
       {
         path: "/item/:id",
