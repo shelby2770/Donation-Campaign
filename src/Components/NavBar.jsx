@@ -3,10 +3,11 @@ import { NavLink } from "react-router-dom";
 const NavBar = () => {
   const logo = "https://i.ibb.co/LRqFW3T/Logo.png";
   return (
-    <nav className="flex flex-row justify-between items-center my-10">
+    <nav className="flex flex-col md:flex-row justify-between items-center my-10">
       <img className="h-10 rem" src={logo} alt="" />
       <div>
-        <ul className="flex gap-10">
+        <ul className="flex flex-col md:flex-row gap-4 md:gap-10 
+        text-center my-4">
           <li>
             <NavLink
               to="/"

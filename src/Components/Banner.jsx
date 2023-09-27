@@ -1,7 +1,7 @@
 const Banner = () => {
   return (
     <div className="flex flex-col justify-center items-center h-[40vh] gap-10">
-      <h2 className="text-5xl font-semibold">
+      <h2 className="xs:text-sm sm:text-lg md:text-3xl lg:text-5xl font-semibold">
         I Grow By Helping People In Need
       </h2>
       <div className="flex flex-center join" id="coupon_field">

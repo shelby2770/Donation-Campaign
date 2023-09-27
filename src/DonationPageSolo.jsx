@@ -6,19 +6,20 @@ const DonationPageSolo = () => {
   const obj = useLoaderData();
   const item = obj[params.id - 1];
   const handleItems = () => {
-    const get_items = JSON.parse(localStorage.getItem("donations"));
+    const get_items = localStorage.getItem("donations");
     console.log(get_items);
-    let update_items = get_items ? get_items : [];
-    let check = false;
-    get_items.map((it) => {
-      if (it.id === item.id) check = true;
-    });
-    if (check){
-      swal ( "Oops" ,  "You have already donated!" ,  "error" )
-    }
-    else{
-      swal("Good job!", "You have completed donation!", "success");
-      update_items.push(item);
+    let update_items = get_items ? JSON.parse(get_items) : [];
+    if (get_items) {
+      let check = false;
+      update_items.map((it) => {
+        if (it.id === item.id) check = true;
+      });
+      if (check) {
+        swal("Oops", "You have already donated!", "error");
+      } else {
+        swal("Good job!", "You have completed donation!", "success");
+        update_items.push(item);
+      }
     }
     localStorage.setItem("donations", JSON.stringify(update_items));
   };
@@ -32,7 +33,7 @@ const DonationPageSolo = () => {
             className="btn rounded-r-md bg-primary_clr text-neutral-100"
             onClick={handleItems}
           >
-            Donate $290
+            Donate {item.price}
           </button>
         </div>
       </div>
