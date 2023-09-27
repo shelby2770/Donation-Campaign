@@ -1,8 +1,8 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Project features:
+=> It's an single page application. Page refresh doesn't occured here on user request.
+=> Fancy 404 Error route shows user if any error on entering link is done and link of main page is also addded there.
+=> Details of donation item is show on clicking card.
+=> Once donation is done, the items can be seen by clicking 'Donation' button.
+=> A Statistics on user's donation perspective to total donation is shown using pie chart
+=> If no donation is made, then an gif will be shown.
+Can make a list of courses that user wants to select.
